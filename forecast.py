@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 
-# 1. GENERATE DATA
+# 1. GENERATING DATA
 np.random.seed(42)
 date_range = pd.date_range(start="2024-01-01", end="2025-12-31", freq="D")
 trend = np.linspace(100, 250, len(date_range))
@@ -12,7 +12,7 @@ weekly_seasonality = 30 * np.sin(2 * np.pi * date_range.dayofweek / 7)
 noise = np.random.normal(0, 15, len(date_range))
 df = pd.DataFrame({"sales": trend + weekly_seasonality + noise}, index=date_range)
 
-# 2. FEATURE ENGINEERING
+# 2. TIME-BASED FEATURE ENGINEERING
 df['Time'] = np.arange(len(df.index))
 df['DayOfWeek'] = df.index.dayofweek
 df = pd.get_dummies(df, columns=['DayOfWeek'], drop_first=True)
