@@ -8,7 +8,7 @@ The goal of this project is to analyze historical retail sales data to predict f
 
 ## Tech Stack & Libraries
 - **Language:** Python
-- **Environment:** Jupyter Notebook
+- **Environment:** VS Code
 - **Data Manipulation:** Pandas, NumPy
 - **Machine Learning:** Scikit-learn (Linear Regression / Time-Series features)
 - **Data Visualization:** Matplotlib / Seaborn
