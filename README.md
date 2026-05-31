@@ -45,13 +45,7 @@ The time-series forecasting model analyzed two years of historical sales records
 
 The final 30-day forecast successfully shows these exact trends and weekly cycles with high accuracy, maintaining a low Mean Absolute Error (MAE).
 
-- **Business Planning Applications:** - **Inventory Management:** Helps store owners avoid stockouts during high-demand peak periods while minimizing holding costs during slow weeks.
-  - **Staffing Optimization:** Aligns workforce scheduling with predicted customer traffic waves.
-
----
-
-## 🏃 How to Run This Project
-1. Clone the repository: `git clone <your-repo-link>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Download the dataset from [Kaggle's Store Sales Competition](https://www.kaggle.com/competitions/store-sales-time-series-forecasting).
-4. Run the Jupyter Notebook in `notebooks/task1_forecasting.ipynb`.
+**Business Planning Applications:** 
+- **Inventory & Stock Management: Instead of guessing how much inventory to order, managers can use the forecasted demand curves to order exact stock quantities. This prevents running out of products during high-demand days and minimizes the capital held up in buying excessive quantity of items and storing it in a warehouse during low-demand days.**
+- **Staff Scheduling & Labour Optimization: Since the forecast clearly outlines which days of the week experience maximum consumer traffic, managers can plan out their employee shift schedules accordingly. More staff can be scheduled on high-demand days to improve customer service, and the number of staff can be reduced on lower-demand days to reduce labour expenses.**
+- **Financial Budgeting & Cash Flow Forecasting: By observing predicted demand, the revenue can be expected. So, a startup founder or business manager can plan out future monthly cash flow. This allows the business to plan larger capital expansions, marketing campaigns or equipment purchases when the revenue is predicted to be high.**
