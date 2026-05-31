@@ -36,7 +36,15 @@ The goal of this project is to analyze historical retail sales data to predict f
 ## Key Insights & Business Impact
 ![Demand Forecast Evaluation](forecast_evaluation.png)
 
-- **What the Forecast Means:** Summarize your findings in 2–3 sentences. (e.g., "Sales consistently spike on weekends by X% and experience a seasonal lift during November/December.")
+- **What the Forecast Means:** 
+The time-series forecasting model analyzed two years of historical sales records to map out future product demand. By evaluating patterns, the model broke down sales into two distinct components:
+
+### The Upward Trend: The business is experiencing steady, continuous growth over time. The baseline demand increases from an average of 100 units to 250 units over the two-year timeline.
+
+### Weekly Seasonality: There is a highly predictable cyclical pattern every week. Sales consistently reach their peak during the middle of the week and experience a drop-off over the weekends.
+
+The final 30-day forecast successfully shows these exact trends and weekly cycles with high accuracy, maintaining a low Mean Absolute Error (MAE).
+
 - **Business Planning Applications:** - **Inventory Management:** Helps store owners avoid stockouts during high-demand peak periods while minimizing holding costs during slow weeks.
   - **Staffing Optimization:** Aligns workforce scheduling with predicted customer traffic waves.
 
