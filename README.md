@@ -39,9 +39,9 @@ The goal of this project is to analyze historical retail sales data to predict f
 **What the Forecast Means:**
 The time-series forecasting model analyzed two years of historical sales records to map out future product demand. By evaluating patterns, the model broke down sales into two distinct components:
 
-- **The Upward Trend: The business is experiencing steady, continuous growth over time. The baseline demand increases from an average of 100 units to 250 units over the two-year timeline.**
+- **The Upward Trend:** The business is experiencing steady, continuous growth over time. The baseline demand increases from an average of 100 units to 250 units over the two-year timeline.
 
-- **Weekly Seasonality: There is a highly predictable cyclical pattern every week. Sales consistently reach their peak during the middle of the week and experience a drop-off over the weekends.**
+- **Weekly Seasonality:** There is a highly predictable cyclical pattern every week. Sales consistently reach their peak during the middle of the week and experience a drop-off over the weekends.
 
 The final 30-day forecast successfully shows these exact trends and weekly cycles with high accuracy, maintaining a low Mean Absolute Error (MAE).
 
