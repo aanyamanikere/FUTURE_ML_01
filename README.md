@@ -34,7 +34,7 @@ The goal of this project is to analyze historical retail sales data to predict f
 ---
 
 ## Key Insights & Business Impact
-*(Tip: Include a clear plot image here showing your forecast vs. actual historical sales! Non-technical stakeholders love visuals.)*
+![Demand Forecast Evaluation](forecast_evaluation.png)
 
 - **What the Forecast Means:** Summarize your findings in 2–3 sentences. (e.g., "Sales consistently spike on weekends by X% and experience a seasonal lift during November/December.")
 - **Business Planning Applications:** - **Inventory Management:** Helps store owners avoid stockouts during high-demand peak periods while minimizing holding costs during slow weeks.
