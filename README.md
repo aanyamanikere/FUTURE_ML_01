@@ -1,5 +1,5 @@
 # FUTURE_ML_01
-# Store Sales & Demand Forecasting 📈
+# Store Sales & Demand Forecasting
 
 ## Project Objective
 The goal of this project is to analyze historical retail sales data to predict future demand. Beyond building an accurate forecasting model, this project focuses on extracting insights regarding sales trends and seasonality to assist business managers, store owners and startup founders in strategic inventory and financial planning.
