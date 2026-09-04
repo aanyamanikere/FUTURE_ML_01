@@ -1,4 +1,3 @@
-# FUTURE_ML_01
 # Store Sales & Demand Forecasting
 
 ## Project Objective
